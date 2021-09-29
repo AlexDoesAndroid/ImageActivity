@@ -9,23 +9,25 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="671dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="474dp" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="408dp"
+        android:id="@+id/recyclerView"
+        android:layout_width="410dp"
+        android:layout_height="430dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp" />
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="444dp"
+        tools:layout_editor_absoluteY="548dp"
         tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
