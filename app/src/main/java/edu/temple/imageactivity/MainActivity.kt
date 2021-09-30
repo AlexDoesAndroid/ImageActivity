@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
+        var recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.adapter = ImageAdapter(Succulents)
     }
 
     val Succulents = arrayOf(
@@ -70,8 +70,7 @@ class MainActivity : AppCompatActivity() {
         )
     )
 
-    var recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
-    recyclerView.adapter = ImageAdapter(Succulents)
+
 
 
 }
